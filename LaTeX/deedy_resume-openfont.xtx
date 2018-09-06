@@ -1,0 +1,224 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Bradley}{Camacho} {
+brc20361@uga.edu | bradleyrcamacho98@gmail.com | 404.566.1122 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\runsubsection{University of Georgia}
+\descript{\\A.B In English, Minor In Computer Science}
+\location{Expected May 2020 |Athens, GA}
+%\descript{Minor In Computer Science}
+%\location{Expected May 2020 |Athens, GA}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\end{minipage} 
+%\hfill
+%\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\section{Experience}
+
+\runsubsection{Regal Cinemas}
+\descript{| Floor Staff }
+\location{February 2016 – Present (Student Leave) | Gwinnet County, GA}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Managed cash drawer/POS, enforced theater policy, managed stock, learned to manage crowds, and lead coworkers during rushes.
+\item Developed customer service skills to ensure all customers received a great theater experience
+\end{tightemize}
+\sectionsep 
+
+\runsubsection{UGA Library System}
+\descript{| Student Assistant }
+\location{September 2017 - January 2018 | Athens, GA}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Duties include shelving, shelf reading, and shifting of library materials. 
+\item Work performed at the UGA Library Repository (Off-Campus repository of all university materials)
+\end{tightemize}
+\sectionsep
+
+\runsubsection{ACL Maintenance \& Service}
+\descript{| General Bookkeeper }
+\location{May 2013 – Aug 2016 | Dacula, GA}
+\begin{tightemize}
+\item Processed payments, created and maintained client records, and other general accounting and bookkeeping services
+\item Processed and mailed monthly invoices to approximately 100 clients
+\end{tightemize}
+\sectionsep
+
+\runsubsection{The Talon Newspaper}
+\descript{| Entertainment Section Editor / Journalist}
+\location{August 2015 - May 2016 | Dacula, GA}
+\begin{tightemize}
+\item Organized, delegated, and lead groups of journalists, about 5 per month, to meet deadlines
+\item Edited and revised all Entertainment articles
+\item Wrote articles, edited and created layout, and had minor photography responsibilities
+
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{basementbrad.com}
+\descript{| Personal Website }
+\location{July 2017 - Present (Still under development) | Athens, GA}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Created a personal website using Wordpress to serve as a collection of my writing. 
+\item Used Wordpress while learning basic PhP, HTML, and CSS
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.50\textwidth} 
+\section{Coursework}
+
+\subsection{Undergraduate}
+Intro to Humanities Computation \\
+Intro To Programming \\
+Technical and Professional Communication \\
+Logic and Critical Thinking \\
+Latin Literature \\
+American Literature Sequence (1783 - Contemporary) \\
+Modern/Postmodern Literature \\
+
+\end{minipage} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hfill
+\begin{minipage}[t]{0.40\textwidth}
+
+\section{Skills}
+\subsection{Technical}
+{Java \textbullet{}   Perl  \textbullet{} Python \textbullet{} Microsoft Office \textbullet{}
+QuickBooks \textbullet{} inDesign  \textbullet{} Adobe Premier Pro  \textbullet{} Gimp \textbullet{} LaTeX \textbullet{}  WordPress \textbullet{} Linux \textbullet{} Unix \textbullet{} Communication  \textbullet{} CSS  \textbullet{} HTML}
+\sectionsep
+
+\subsection{Languages}
+{English \textbullet{} Spanish}
+\sectionsep
+%\end{minipage} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
